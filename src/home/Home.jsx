@@ -45,8 +45,8 @@ function Home() {
   return (
     <div>
       <Navbar />
-      <div className="row m-0">
-        <div className="col-md-8 col-xsm-9" id="videoPlayer"></div>
+      <div className="row m-0 home-layout p-4">
+        <div className="col-lg-8 bg-black rounded p-0 " id="videoPlayer"></div>
         <ScrollableView posts={data} onScroll={onScroll} innerRef={innerRef} />
       </div>
     </div>

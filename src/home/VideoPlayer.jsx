@@ -22,7 +22,7 @@ const VideoPlayer = ({ children }) => {
   return (
     play &&
     createPortal(
-      <div className="row m-0" style={{}} id="player">
+      <div className="row m-0 py-4 bg-black rounded" style={{}} id="player">
         {children}
       </div>,
       videoRef.current
